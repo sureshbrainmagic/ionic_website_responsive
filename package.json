@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "resources": "capacitor-resources -p android,ios"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "@ionic/angular": "^5.5.2",
     "animate.css": "^3.7.0",
     "bootstrap": "^4.6.0",
+    "capacitor-resources": "^2.0.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
